@@ -1,0 +1,46 @@
+.contact-section {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    color: #7777a1e5;
+    font-family: "Roboto Condensed", sans-serif;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 10px 15px;
+    background-color: #7777a1e5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #484864e5;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875em;
+}
+
+.success-message {
+    color: green;
+    font-size: 1em;
+}
