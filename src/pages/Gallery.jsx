@@ -1,4 +1,10 @@
-import images from '../assets/images'
+import theydont from '../assets/images/theydont.png';
+import radium from '../assets/images/radium.png';
+import men from '../assets/images/men.png';
+import love from '../assets/images/love.png';
+import costume from '../assets/images/costume.png';
+import wonderland from '../assets/images/wonderland.png';
+
 
 export default function Gallery() {
     return (
@@ -9,7 +15,7 @@ export default function Gallery() {
                     <div className="work-topics">
                         <div className="work">
                             <a href="" target="_blank">
-                                <img src={images.theydont} alt="They Don't Pay? We Won't Pay!"/>
+                                <img src={theydont} alt="They Don't Pay? We Won't Pay!"/>
                                 <div className="info">
                                 <h5>They Don't Pay? We Won't Pay!</h5>
                                 </div>
@@ -17,7 +23,7 @@ export default function Gallery() {
                         </div>
                         <div className="work">
                             <a href="" target="_blank">
-                                <img src={images.radium} alt="Radium Girls"/>
+                                <img src={radium} alt="Radium Girls"/>
                                 <div className="info">
                                 <h5>Radium Girls</h5>
                                 </div>
@@ -25,7 +31,7 @@ export default function Gallery() {
                         </div>
                         <div className="work">
                             <a href="" target="_blank">
-                                <img src={images.men} alt="Men on Boats"/>
+                                <img src={men} alt="Men on Boats"/>
                                 <div className="info">
                                 <h5>Men on Boats</h5>
                                 </div>
@@ -33,7 +39,7 @@ export default function Gallery() {
                         </div>
                         <div className="work">
                             <a href="" target="_blank">
-                                <img src={images.love} alt="About Love"/>
+                                <img src={love} alt="About Love"/>
                                 <div className="info">
                                 <h5>About Love</h5>
                                 </div>
@@ -41,7 +47,7 @@ export default function Gallery() {
                         </div>
                         <div className="work">
                             <a href="" target="_blank">
-                                <img src={images.costume} alt="Specific Costume Work"/>
+                                <img src={costume} alt="Specific Costume Work"/>
                                 <div className="info">
                                 <h5>Specific Costume Work</h5>
                                 </div>
@@ -49,7 +55,7 @@ export default function Gallery() {
                         </div>
                         <div className="work">
                             <a href="" target="_blank">
-                                <img src={images.wonderland} alt="Wonderland"/>
+                                <img src={wonderland} alt="Wonderland"/>
                                 <div className="info">
                                 <h5>Wonderland</h5>
                                 </div>

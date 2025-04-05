@@ -26,10 +26,10 @@ function Header() {
       </li>
       <li className="nav-item">
         <Link
-          to="/Positions"
-           className={currentPage === '/Positions' ? 'nav-link active' : 'nav-link'}
+          to="/Gallery"
+           className={currentPage === '/Gallery' ? 'nav-link active' : 'nav-link'}
         >
-          Positions
+          Gallery
         </Link>
       </li>
       <li className="nav-item">
