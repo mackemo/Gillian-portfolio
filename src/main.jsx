@@ -11,6 +11,15 @@ import Gallery from './pages/Gallery';
 import Headshots from './pages/Headshots';
 import Contact from './pages/Contact';
 
+
+import TheyDontPay from './pages/Projects/TheyDontPay';
+import RadiumGirls from './pages/Projects/RadiumGirls';
+import MenOnBoats from './pages/Projects/MenOnBoats';
+import AboutLove from './pages/Projects/AboutLove';
+import SpecificCostume from './pages/Projects/SpecificCostume';
+import Wonderland from './pages/Projects/Wonderland';
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +37,30 @@ const router = createBrowserRouter([
       {
         path: "/Gallery",
         element: <Gallery />,
+      },
+      {
+        path: "/Gallery/theydontpay",
+        element: <TheyDontPay />,
+      },
+      {
+        path: "/Gallery/radiumgirls",
+        element: <RadiumGirls />,
+      },
+      {
+        path: "/Gallery/menonboats",
+        element: <MenOnBoats />,
+      },
+      {
+        path: "/Gallery/aboutlove",
+        element: <AboutLove />,
+      },
+      {
+        path: "/Gallery/specificcostume",
+        element: <SpecificCostume />,
+      },
+      {
+        path: "/Gallery/wonderland",
+        element: <Wonderland />,
       },
       {
         path: "/Headshots",
